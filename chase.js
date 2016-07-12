@@ -3,16 +3,22 @@ $(function()
 	var obj = $("aside");
 	var offset = $(obj).offset();
 	var topPadding = 100;
-	$(window).scroll(function() {
-		if ($(window).scrollTop() > offset.top) {
-			$(obj).stop().animate({
+	$(window).scroll(function() 
+	{
+		if ($(window).scrollTop() > offset.top) 
+		{
+			$(obj).stop().animate(
+			{
 				duration: 'fast',
 				marginTop: $(window).scrollTop() - offset.top + topPadding
 			});
-		} else {
-			$(obj).stop().animate({
+		} 
+		else 
+		{
+			$(obj).stop().animate(
+				{
 				marginTop: 0
-			});
+				});
 		}
 	});
 });
