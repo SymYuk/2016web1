@@ -1,23 +1,23 @@
 var	scrollTop=$(window).scrollTop(),
 	headerH=$('#header').outerHeight(true),
-	subH=$('#sub').outerHeight(true),
+	subH=$('aside').outerHeight(true),
 	wrapperH=$('#wrapper').outerHeight(true);
 	
 	if(scrollTop<headerH)
 	{
-		$('#sub').removeClass('fixed');
-		$('#sub').addClass('top');
+		$('aside').removeClass('fixed');
+		$('aside').addClass('top');
 	}
 	
 	else if(scrollTop+subH<wrapperH)
 	{
-		$('#sub').removeClass('top');
-		$('#sub').removeClass('bottom');
-		$('#sub').addClass('fixed');	
+		$('aside').removeClass('top');
+		$('aside').removeClass('bottom');
+		$('aside').addClass('fixed');	
 	}
 	
 	else
 	{
-		$('#sub').removeClass('fixed');
-		$('#sub').addClass('bottom');	
+		$('aside').removeClass('fixed');
+		$('aside').addClass('bottom');	
 	}
