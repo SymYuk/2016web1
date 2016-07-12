@@ -1,6 +1,6 @@
 $(function()
 {
-	var obj = $("side");
+	var obj = $("aside");
 	var offset = $(obj).offset();
 	var topPadding = 100;
 	$(window).scroll(function() {
