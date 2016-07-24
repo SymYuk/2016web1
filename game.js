@@ -41,4 +41,4 @@ else
 {
 	message="残念　「"+ans+"」って読むのです";
 }
- document.getElementById('choice').textContent=message;
+ document.getElementById('kekka').textContent=message;
