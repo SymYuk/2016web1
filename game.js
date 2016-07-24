@@ -34,10 +34,6 @@ var input;
 var message="なんと読む？→"+que;
 var input=window.prompt(message,"送り仮名込みで平仮名で解答");
 if(input==ans)
-{
 	alert("お見事です");
-}
 else
-{
 	alert("残念　「"+ans+"」って読むのです");
-}
