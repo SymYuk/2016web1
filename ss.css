@@ -4,6 +4,7 @@
 
 header
 {
+	background-color:seashell;
 	position:fixed;
 	left:0;
 	top:0;
@@ -13,7 +14,8 @@ header
 
 aside
 {
-	background-color:palegreen;
+	padding:10px;
+	background-color:honeydew;
 	position: absolute;
 	top: 100px;
 	right: 0;
@@ -22,6 +24,7 @@ aside
 
 footer
 {
+	background-color:ivory;
 	text-align:center;
 }
 
