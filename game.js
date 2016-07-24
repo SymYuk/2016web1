@@ -32,15 +32,13 @@ que="流離う";ans="さすらう";
 
 var input;
 var message="なんと読む？→"+que;
-alert("お見事です");
 var input=window.prompt(message,"送り仮名込みで平仮名で解答");
-alert("残念　「"+ans+"」って読むのです");
 if(input==answer)
 {
-	alert("お見事です");
+	message="お見事です";
 }
 else
 {
-	alert("残念　「"+ans+"」って読むのです");
+	message="残念　「"+ans+"」って読むのです";
 }
-alert("残念　「"+ans+"」って読むのです");
+ document.getElementById('choice').textContent=message;
