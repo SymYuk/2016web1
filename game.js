@@ -39,6 +39,5 @@ if(input==ans)
 }
 else
 {
-		alert("残念　「"+ans+"」って読むのです");
+	alert("残念　「"+ans+"」って読むのです");
 }
- document.getElementById('kekka').textContent=message;
