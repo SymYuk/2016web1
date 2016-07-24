@@ -1,6 +1,6 @@
 var ans;
 var que;
-var num=Math.floor(Math.random()*14);
+var num=Math.floor(Math.random()*13);
 if(num==0)
 {que="若気る";ans="にやける";}
 if(num==1)
@@ -10,7 +10,7 @@ if(num==2)
 if(num==3)
 {que="疎癒ゆ";ans="おろいゆ";}
 if(num==4)
-{que="響動く";ans="どよめく";}
+{que="流離う";ans="さすらう";}
 if(num==5)
 {que="額衝く";ans="ぬかづく";}
 if(num==6)
@@ -27,8 +27,7 @@ if(num==11)
 {que="周章る";ans="あわてる";}
 if(num==12)
 {que="揶揄う";ans="からかう";}
-if(num==13)
-{que="流離う";ans="さすらう";}
+
 
 var input;
 var message="なんと読む？→"+que;
