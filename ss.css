@@ -19,6 +19,11 @@ aside
 	width: 200px;
 }
 
+footer
+{
+	text-align:center;
+}
+
 #contents{position:relative;}
 
 #sub{position:absolute;left:0;}
