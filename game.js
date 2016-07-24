@@ -15,7 +15,7 @@ var output="なんと読む？→"+ques;
 var input;
 var message;
 
-window.prompt(output);
+var input=window.prompt(output,送り仮名込みで平仮名で解答);
 
 while(true)
 {
