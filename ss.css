@@ -2,16 +2,6 @@
 
 *{margin:0;padding:0;}
 
-aside
-{
-	padding:10px;
-	background-color:honeydew;
-	position: absolute;
-	top: 100px;
-	right: 0;
-	width: 200px;
-}
-
 header
 {
 	background-color:seashell;
@@ -20,6 +10,16 @@ header
 	top:0;
 	width:100%;
 	text-align:center;
+}
+
+aside
+{
+	padding:10px;
+	background-color:honeydew;
+	position: absolute;
+	top: 100px;
+	right: 0;
+	width: 200px;
 }
 
 footer
@@ -33,6 +33,12 @@ footer
 {
 	margin:128px 0 0 0;
 	text-align:center;
+}
+
+#history
+{
+	padding:50px;
+	background-color:mintcream;
 }
 
 #contents{position:relative;}
