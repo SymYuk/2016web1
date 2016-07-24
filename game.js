@@ -32,7 +32,7 @@ que="流離う";ans="さすらう";
 
 var input;
 var message="なんと読む？→"+que;
-
+alert("お見事です");
 var input=window.prompt(message,"送り仮名込みで平仮名で解答");
 
 if(input==answer)
