@@ -13,6 +13,7 @@ header
 
 aside
 {
+	background-color:palegreen;
 	position: absolute;
 	top: 100px;
 	right: 0;
@@ -20,6 +21,11 @@ aside
 }
 
 footer
+{
+	text-align:center;
+}
+
+#main
 {
 	text-align:center;
 }
