@@ -1,9 +1,7 @@
-var input=window.prompt(ヴぇあああ,送り仮名込みで平仮名で解答);
+var input=window.prompt("ヴぇあああ","送り仮名込みで平仮名で解答");
 var answer="";
 var ques;
 var num=Math.floor(Math.random()*10);
-var question;
-var output="なんと読む？→"+ques;
 var input;
 var message;
 
